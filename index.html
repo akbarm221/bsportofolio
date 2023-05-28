@@ -14,7 +14,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">SanzBarz</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -24,13 +24,13 @@
       <div class="collapse navbar-collapse justify-content-end me-auto" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">About Me</a>
+            <a class="nav-link" aria-current="page" href="#aboutme">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portofolio</a>
+            <a class="nav-link" href="#portofolio">Portofolio</a>
           </li>
           <li class="nav-item" style="padding-right: 30px;">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
         </ul>
       </div>
@@ -39,12 +39,12 @@
   <!-- Navbar End -->
 
   <!-- Jumbotron -->
-  <div class="jumbotron" style="height: 2700px;">
+  <div class="jumbotron" style="height: 2700px;" id="aboutme">
     <div class="container-fluid">
       <div class="collumn">
         <!-- About Me -->
         <div class="col-md-12 text-center pt-5">
-          <img src="img/cute-fox.jpg" alt="" class="pp">
+          <img src="img/fotogw.jpeg" alt="" class="pp">
         </div>
         <div class="col-md-12 text-center">
           <h1 class="h1-about display-5">
@@ -54,17 +54,17 @@
             Saya adalah orang yang sangat termotivasi untuk belajar, dan disiplin<br>
             Bagi saya pemograman adalah hobby yang membuat saya enjoy pemograman<br>
             Saya sangat suka mempelajari hal hal baru termasuk teknologi terkini<br>
-            ini hanya Dummy Portofolio !</p>
+           <span style="font-weight:800 ; font-size: 20px;"> ini hanya Dummy Portofolio ! </span></p>
         </div>
       </div>
       <div class="container-sosmed">
-        <a href=""><img class="sosmed" src="img/instagram.png" alt=""></a>
-        <a href=""><img class="sosmed" src="img/linkedin.png" alt=""></a>
+        <a href="https://www.instagram.com/akbarm224/"><img class="sosmed" src="img/instagram.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/akbar-maulana-632b1a265/"><img class="sosmed" src="img/linkedin.png" alt=""></a>
         <a href=""><img class="sosmed" src="img/whatsapp.png" alt=""></a>
       </div>
       <!-- About Me End -->
       <!-- Portofolio -->
-      <h1 class="h1-portofolio">Portofolio</h1>
+      <h1 class="h1-portofolio" id="portofolio">Portofolio</h1>
       <div class="img-setting"><img src="img/Screenshot (165).png" alt="" class="img-portofolio"></div>
       <p class="keterangan-portofolio">Pembuatan Website English Course dengan HTML CSS Bootstrap</p>
       <a href="">
@@ -84,7 +84,7 @@
       </div>
       <!-- contact me end-->
       <!-- skill -->
-      <div class="container-skill">
+      <div class="container-skill" id="skills">
         <h1 class="h1-skill">Skills</h1>
         <div class="container-img-skill">
           <div class="child-image">
